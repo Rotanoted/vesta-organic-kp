@@ -165,20 +165,35 @@ export default function Page() {
       </section>
 
       <section>
-        <div className="wrap">
+        <div className="wrap wide">
           <h2>Как это может выглядеть</h2>
           <p className="sub">
-            Главный экран. Слева — сайт сегодня, справа — концепт. Структура и логика при этом
-            остаются прежними: те же разделы, те же названия пунктов меню.
+            Главный экран сегодня и концепт нового. Структура и логика при этом остаются прежними:
+            те же разделы, те же названия пунктов меню. Картинки кликабельны — открываются в полном
+            размере.
           </p>
 
           <div className="shots">
             <figure>
-              <img src="/now-main.png" alt="Главная страница сайта в текущем виде" />
+              <a href="/now-main.webp" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/now-main.webp"
+                  alt="Главная страница сайта vestaorganic.ru в текущем виде"
+                  width="1672"
+                  height="941"
+                />
+              </a>
               <figcaption>Сейчас</figcaption>
             </figure>
             <figure>
-              <img src="/redesign-main.png" alt="Концепт главной страницы после редизайна" />
+              <a href="/redesign-main.webp" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/redesign-main.webp"
+                  alt="Концепт главной страницы после редизайна"
+                  width="1672"
+                  height="941"
+                />
+              </a>
               <figcaption>Концепт после редизайна</figcaption>
             </figure>
           </div>
